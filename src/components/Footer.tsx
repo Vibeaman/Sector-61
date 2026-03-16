@@ -20,7 +20,7 @@ const Footer = () => {
               <li><a href="#about" className="text-muted-foreground hover:text-primary transition-colors">About</a></li>
               <li><a href="#ecosystem" className="text-muted-foreground hover:text-primary transition-colors">Ecosystem</a></li>
               <li><a href="#whitepaper" className="text-muted-foreground hover:text-primary transition-colors">Whitepaper</a></li>
-              <li><a href="#donations" className="text-muted-foreground hover:text-primary transition-colors">Donate</a></li>
+              
             </ul>
           </div>
 
@@ -40,11 +40,6 @@ const Footer = () => {
                   X Community
                 </a>
               </li>
-              <li>
-                <a href="https://app.endaoment.org/funds/532bfc8e-f691-4a5a-9db0-470ac4f0e684" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                  Endaoment Fund
-                </a>
-              </li>
             </ul>
           </div>
         </div>
@@ -53,7 +48,7 @@ const Footer = () => {
           <p className="text-muted-foreground text-[10px] leading-relaxed max-w-2xl mx-auto">
             Disclaimer: Sector 61 is an experimental project. Tokens launched within the ecosystem are
             community experiments and should not be considered financial advice or investment products.
-            Donations are processed through Endaoment, a registered 501(c)(3) nonprofit organization.
+            
             DYOR. NFA.
           </p>
           <p className="text-muted-foreground/50 text-[10px] mt-4">

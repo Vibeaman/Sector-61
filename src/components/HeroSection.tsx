@@ -50,14 +50,6 @@ const HeroSection = () => {
           >
             Read Whitepaper
           </a>
-          <a
-            href="https://app.endaoment.org/funds/532bfc8e-f691-4a5a-9db0-470ac4f0e684"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-8 py-3 text-sm font-display font-semibold tracking-wider uppercase bg-primary text-primary-foreground hover:shadow-[var(--neon-glow-strong)] transition-all duration-300"
-          >
-            Donate Crypto
-          </a>
         </motion.div>
 
         {/* Scroll indicator */}

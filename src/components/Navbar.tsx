@@ -14,7 +14,7 @@ const Navbar = () => {
   const links = [
     { href: "#about", label: "About" },
     { href: "#ecosystem", label: "Ecosystem" },
-    { href: "#donations", label: "Donate" },
+    
     { href: "#whitepaper", label: "Whitepaper" },
     { href: "#gallery", label: "Gallery" },
   ];
