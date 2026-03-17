@@ -52,6 +52,37 @@ const HeroSection = () => {
           </a>
         </motion.div>
 
+        {/* Community & Fund boxes */}
+        <motion.div
+          className="flex flex-col sm:flex-row gap-6 justify-center mt-12"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+        >
+          <a
+            href="https://t.me/+FF702jatY7tmM2E0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass-panel neon-border w-72 h-28 flex flex-col items-center justify-center gap-2 hover:neon-border-strong transition-all duration-300 group"
+          >
+            <span className="text-2xl">📨</span>
+            <span className="font-display font-semibold text-sm uppercase tracking-wider text-primary group-hover:neon-text transition-all">
+              Join Telegram
+            </span>
+          </a>
+          <a
+            href="https://app.endaoment.org/funds/532bfc8e-f691-4a5a-9db0-470ac4f0e684"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass-panel neon-border w-72 h-28 flex flex-col items-center justify-center gap-2 hover:neon-border-strong transition-all duration-300 group"
+          >
+            <span className="text-2xl">💚</span>
+            <span className="font-display font-semibold text-sm uppercase tracking-wider text-primary group-hover:neon-text transition-all">
+              Endaoment Fund
+            </span>
+          </a>
+        </motion.div>
+
         {/* Scroll indicator */}
         <motion.div
           className="absolute bottom-8 left-1/2 -translate-x-1/2"
